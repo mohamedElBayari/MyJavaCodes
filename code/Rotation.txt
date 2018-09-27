@@ -1,0 +1,5 @@
+//Rotation
+
+
+        float deg = imageButton.getRotation()+45f;
+        imageButton.animate().rotation(deg).setInterpolator(new AccelerateDecelerateInterpolator());

@@ -1,0 +1,2 @@
+   imageButton2.setVisibility(View.INVISIBLE);
+        imageButton.setVisibility(View.VISIBLE);

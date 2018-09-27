@@ -1,0 +1,17 @@
+   int in2 = Integer.parseInt(txNumberAcount.getText().toString());
+        in2++;
+        String st2 = new Integer(in2).toString();
+        txNumberAcount.setText(st2);
+
+            Toast.makeText(MainActivity.this, txNumberAcount.getText(), Toast.LENGTH_SHORT).show();
+
+
+//
+
+
+int i = Integer.parseInt(tx.getText().toString());
+i++;
+String st =  Integer.toString(i);
+
+
+tx.setText(st);
